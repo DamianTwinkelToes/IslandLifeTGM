@@ -1,0 +1,8 @@
+//PayChecks by DamianTwinkelToes (usses the script MoneySystem.sqf)
+sleep 180;
+player groupchat "U received a paycheck off $5500! next paycheck in 3 mins.";
+BnkMoney=BnkMoney+5500;
+sleep 180;
+player groupchat "U received a paycheck off $5500! next paycheck in 3 mins.";
+BnkMoney=BnkMoney+5500;
+execVM "PayCheck.sqf";
